@@ -1,0 +1,326 @@
+@import url("bootstrap.css");
+
+@font-face {
+  font-family: HelveticaLight;
+  src: local("Helvetica Neue Light"),
+       local("HelveticaNeue-Light");
+}
+
+.bg-ffffff {
+
+	background: #ffffff;
+
+}
+
+.bg-32d2da-gradient {
+
+	background: #32d2da repeat-x;
+
+}
+
+header {
+
+	text-align: center;
+	padding: 20px 20px 0 20px;
+
+}
+
+h1 {
+
+	font-size: 48px;
+	font-family: Montserrat, "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: 600;
+	color: #333333;
+	text-align: center;
+
+}
+
+a.logo {
+
+	background-image: url("../img/echo_logo.png");
+	width: 167px;
+	height: 77px;
+	display: block;
+	color: #333333;
+	text-align: left;
+	text-indent: -9999px; /* hide the text! */
+
+}
+
+a.logo-center {
+
+	display: block;
+	margin: 0 auto;
+
+}
+
+h2 {
+
+	font-size: 30px;
+	font-family: Montserrat, "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: 200;
+	color: #999999;
+	text-align: center;
+	margin: 20px 0;
+
+}
+
+a.download-btn {
+
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 21px;
+	color: #ffffff;
+	background: #32d2da;
+
+}
+
+a.download-btn:hover {
+
+	background: #1fc3cc;
+
+
+}
+
+a.download-btn:active {
+
+	box-shadow: none;
+	background: #1caeb6;
+	color: #dddddd;
+
+}
+
+/*a.download-btn {
+
+	border: 1px solid #f5f5f5;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 21px;
+	color: #32d2da;
+	box-shadow: 0px 1px 0px #eeeeee;
+
+}
+
+a.download-btn:hover {
+
+	border: 1px solid #eeeeee;
+	text-decoration: none;
+	color: #32d2da;
+	position: relative;
+	bottom: 2px;
+	box-shadow: 0px 3px 0px #eeeeee;
+
+}
+
+a.download-btn:active {
+
+	position: relative;
+	top: 2px;
+		box-shadow: none;
+
+
+}*/
+
+#content h3 {
+
+	font-size: 36px;
+	font-family: HelveticaLight, "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: 200;
+	color: #ffffff;
+	margin-bottom: 35px;
+
+}
+
+#content {
+
+	margin-top: 200px;
+	font-family: HelveticaLight, "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: 100;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+#support-content {
+
+	font-family: HelveticaLight, "Helvetica Neue", "Helvetica", sans-serif;
+	font-weight: 100;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 30px;
+
+
+}
+
+
+#support-content input,
+#support-content textarea {
+
+	width: 100%;
+	margin: 0 0 20px 0;
+
+}
+
+#content .container {
+
+	background: transparent url("../img/iphone_halo.png") center -164px no-repeat;
+
+}
+
+#content .container div.quote {
+
+	background: transparent url("../img/quote_icon.png") 50px 10px no-repeat;
+	margin-top: 40px;
+	padding-top: 100px;
+
+}
+
+#content .container div.share {
+
+	background: transparent url("../img/save_icon.png") 30px top no-repeat;
+	margin-top: 40px;
+	padding-top: 100px;
+
+}
+
+.iphone {
+
+}
+
+.iphone-img {
+
+	background: transparent url("../img/iphone_img.png") no-repeat;
+	width: 394px;
+	height: 886px;
+	margin: -160px auto 0 auto;
+
+}
+
+
+.iphone-feed {
+	position: relative;
+	top: 120px;
+	left: 31px;
+	width: 334px;
+	height: 593px;
+
+}
+
+.iphone-app-header {
+        position: relative;
+	top: 120px;
+	left: 31px;
+	width: 334px;
+	height: 68px;
+	background: transparent url("../img/iphone-app-header.png") no-repeat;
+}
+
+.iphone-app-header {
+        position: relative;
+	top: 120px;
+	left: 31px;
+	width: 334px;
+	height: 68px;
+	background: transparent url("../img/iphone-app-header.png") no-repeat;
+}
+
+.iphone-app-feed-quote-blank {
+        position: relative;
+	top: 120px;
+	left: 31px;
+	width: 334px;
+	height: 104px;
+	background: transparent url("../img/iphone-app-feed-quote-blank.png") no-repeat;
+}
+
+.iphone-feed-profile-pic {
+        position: relative;
+	top: 10px;
+	left: 5px;
+	width: 38px;
+	height: 38px;
+}
+
+.iphone-feed-source-name {
+        position: absolute;
+	top: 13px;
+	left: 62px;
+	font-size: 11px;
+	font-weight: bold;
+	color: black;
+}
+
+.iphone-feed-quote-content {
+        position: absolute;
+	top: 31px;
+	left: 62px;
+	width: 220px;
+	font-size: 12px;
+	color: black;
+}
+
+.iphone-feed-reporter-name {
+        position: absolute;
+	top: 83px;
+	left: 150px;
+	font-size: 11px;
+	color: black;
+}
+
+.iphone-screen {
+
+	position: relative;
+	top: 120px;
+	left: 31px;
+	width: 334px;
+	height: 593px;
+	background: transparent url("../img/iphone_screenshot.png") no-repeat;
+
+}
+
+a.fb-btn {
+
+	font-size: 21px;
+	font-family: "Helvetica Neue", sans-serif;
+	color: #ffffff;
+	background: #707bbb;
+	padding: 10px 20px 10px 50px;
+	box-shadow: none;
+	margin-top: 30px;
+
+}
+
+a.fb-btn:hover {
+
+	background: #626ca7;
+
+}
+
+a.fb-btn:active {
+
+}
+
+footer {
+
+	height: 100px;
+	background: #07b2bb;
+	color: #23989e;
+	font-size: 1.5em;
+	padding: 20px 0;
+	text-align: center;
+	margin: 0;
+
+}
+
+footer a, .footer-links {
+
+	color: #04969e;
+	font-size: 16px;
+
+}
+
+footer a:hover {
+
+	text-decoration: none;
+	color: #2d9196;
+
+}

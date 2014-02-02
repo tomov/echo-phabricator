@@ -1,0 +1,3 @@
+#RewriteEngine on
+#RewriteBase /
+#RewriteRule ^phabricator shit [R=301,L]
